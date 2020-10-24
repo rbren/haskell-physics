@@ -40,3 +40,5 @@ spec = do
 
     it "should have magnitude" $ do
       magnitude zeroSV `shouldBe` 0.0
+      let v1 = SpaceVec 1 2 3
+      magnitude v1 `shouldBe` sqrt 14.0

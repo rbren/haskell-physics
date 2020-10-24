@@ -1,9 +1,11 @@
+module Lib.SpaceVecSpec (spec) where
+
 import Test.Hspec
 import Test.QuickCheck
 import Lib.SpaceVec
 
-main :: IO ()
-main = hspec $ do
+spec :: Spec
+spec = do
   describe "SpaceVec" $ do
     it "has zero vec" $ do
       x zeroSV `shouldBe` 0.0

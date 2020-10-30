@@ -1,9 +1,18 @@
 module Main where
 
+import Data.Typeable
 import Lib.SpaceVec
+import Lib.System
 
-v1 = SpaceVec 0 0 0
-v2 = SpaceVec 1 1 1
-v3 = v1 ^+^ v2
+sys = massOnASpring 9.0 1.0 1.0
 
-main = print v3
+delta = 0.01
+endTime = 10
+startTime = time (state sys)
+--steps = toInteger ((endTime - startTime) / delta)
+steps = 500
+
+solution = iterate (eulerStep delta) sys
+systemSteps = take steps solution
+
+main = mapM_ print systemSteps

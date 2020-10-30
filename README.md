@@ -1,11 +1,11 @@
 ## Run
 ```
-runhaskell main.hs
+runhaskell -i./src main.hs
 ```
 
 ## Compile
 ```
-ghc -o run main.hs
+ghc -i./src -o run main.hs
 ```
 
 ## Tests

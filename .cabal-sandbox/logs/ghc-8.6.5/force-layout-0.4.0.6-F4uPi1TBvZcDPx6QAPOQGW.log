@@ -1,0 +1,7 @@
+cabal: Entering directory '/tmp/cabal-tmp-296095/force-layout-0.4.0.6'
+Configuring force-layout-0.4.0.6...
+Preprocessing library for force-layout-0.4.0.6..
+Building library for force-layout-0.4.0.6..
+[1 of 1] Compiling Physics.ForceLayout ( src/Physics/ForceLayout.hs, dist/dist-sandbox-69b9cdf0/build/Physics/ForceLayout.o )
+Installing library in /home/rbren/git/haskell-physics/.cabal-sandbox/lib/x86_64-linux-ghc-8.6.5/force-layout-0.4.0.6-F4uPi1TBvZcDPx6QAPOQGW
+cabal: Leaving directory '/tmp/cabal-tmp-296095/force-layout-0.4.0.6'

@@ -1,0 +1,7 @@
+cabal: Entering directory '/tmp/cabal-tmp-296097/circle-packing-0.1.0.6'
+Configuring circle-packing-0.1.0.6...
+Preprocessing library for circle-packing-0.1.0.6..
+Building library for circle-packing-0.1.0.6..
+[1 of 1] Compiling Optimisation.CirclePacking ( Optimisation/CirclePacking.hs, dist/dist-sandbox-69b9cdf0/build/Optimisation/CirclePacking.o )
+Installing library in /home/rbren/git/haskell-physics/.cabal-sandbox/lib/x86_64-linux-ghc-8.6.5/circle-packing-0.1.0.6-2LkHhWdKI2fHdii9SkudGU
+cabal: Leaving directory '/tmp/cabal-tmp-296097/circle-packing-0.1.0.6'

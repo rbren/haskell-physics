@@ -1,0 +1,14 @@
+cabal: Entering directory '/tmp/cabal-tmp-296098/NumInstances-1.4'
+Configuring NumInstances-1.4...
+Warning: 'ghc-options: -prof' is not necessary and will lead to problems when
+used on a library. Use the configure flag --enable-library-profiling and/or
+--enable-profiling.
+Preprocessing library for NumInstances-1.4..
+Building library for NumInstances-1.4..
+[1 of 5] Compiling Data.NumInstances.PreRequisites ( src-relaxed-Num/Data/NumInstances/PreRequisites.hs, dist/dist-sandbox-69b9cdf0/build/Data/NumInstances/PreRequisites.o )
+[2 of 5] Compiling Data.NumInstances.Function ( src/Data/NumInstances/Function.hs, dist/dist-sandbox-69b9cdf0/build/Data/NumInstances/Function.o )
+[3 of 5] Compiling Data.NumInstances.Tuple ( src/Data/NumInstances/Tuple.hs, dist/dist-sandbox-69b9cdf0/build/Data/NumInstances/Tuple.o )
+[4 of 5] Compiling Data.NumInstances ( src/Data/NumInstances.hs, dist/dist-sandbox-69b9cdf0/build/Data/NumInstances.o )
+[5 of 5] Compiling Data.NumInstances.Util ( src/Data/NumInstances/Util.hs, dist/dist-sandbox-69b9cdf0/build/Data/NumInstances/Util.o )
+Installing library in /home/rbren/git/haskell-physics/.cabal-sandbox/lib/x86_64-linux-ghc-8.6.5/NumInstances-1.4-FTgry5pvGdVHxLDnuvIyG6
+cabal: Leaving directory '/tmp/cabal-tmp-296098/NumInstances-1.4'

@@ -1,0 +1,36 @@
+cabal: Entering directory '/tmp/cabal-tmp-296098/mfsolve-0.3.2.0'
+Configuring mfsolve-0.3.2.0...
+Preprocessing library for mfsolve-0.3.2.0..
+Building library for mfsolve-0.3.2.0..
+[1 of 1] Compiling Math.MFSolve     ( Math/MFSolve.hs, dist/dist-sandbox-69b9cdf0/build/Math/MFSolve.o )
+
+Math/MFSolve.hs:111:1: warning: [-Wunused-imports]
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+    |
+111 | import Control.Applicative hiding (Const)
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Math/MFSolve.hs:208:1: warning: [-Wmissing-signatures]
+    Pattern synonym with no type signature:
+      pattern LinearE :: forall v n. LinExpr v n -> Expr v n
+    |
+208 | pattern LinearE l = Expr l [] []
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Math/MFSolve.hs:209:1: warning: [-Wmissing-signatures]
+    Pattern synonym with no type signature:
+      pattern ConstE :: forall v n. n -> Expr v n
+    |
+209 | pattern ConstE c = Expr (LinExpr c []) [] []
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Math/MFSolve.hs:210:1: warning: [-Wmissing-signatures]
+    Pattern synonym with no type signature:
+      pattern LConst :: forall v n. n -> LinExpr v n
+    |
+210 | pattern LConst c = LinExpr c []
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Installing library in /home/rbren/git/haskell-physics/.cabal-sandbox/lib/x86_64-linux-ghc-8.6.5/mfsolve-0.3.2.0-J0v9SYj8UKmGgNh7Fu2Imm
+cabal: Leaving directory '/tmp/cabal-tmp-296098/mfsolve-0.3.2.0'

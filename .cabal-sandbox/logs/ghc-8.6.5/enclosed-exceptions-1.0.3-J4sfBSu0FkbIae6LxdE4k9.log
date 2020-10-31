@@ -1,0 +1,7 @@
+cabal: Entering directory '/tmp/cabal-tmp-296096/enclosed-exceptions-1.0.3'
+Configuring enclosed-exceptions-1.0.3...
+Preprocessing library for enclosed-exceptions-1.0.3..
+Building library for enclosed-exceptions-1.0.3..
+[1 of 1] Compiling Control.Exception.Enclosed ( src/Control/Exception/Enclosed.hs, dist/dist-sandbox-69b9cdf0/build/Control/Exception/Enclosed.o )
+Installing library in /home/rbren/git/haskell-physics/.cabal-sandbox/lib/x86_64-linux-ghc-8.6.5/enclosed-exceptions-1.0.3-J4sfBSu0FkbIae6LxdE4k9
+cabal: Leaving directory '/tmp/cabal-tmp-296096/enclosed-exceptions-1.0.3'

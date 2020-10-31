@@ -1,0 +1,8 @@
+cabal: Entering directory '/tmp/cabal-tmp-296096/diagrams-solve-0.1.2'
+Configuring diagrams-solve-0.1.2...
+Preprocessing library for diagrams-solve-0.1.2..
+Building library for diagrams-solve-0.1.2..
+[1 of 2] Compiling Diagrams.Solve.Polynomial ( src/Diagrams/Solve/Polynomial.hs, dist/dist-sandbox-69b9cdf0/build/Diagrams/Solve/Polynomial.o )
+[2 of 2] Compiling Diagrams.Solve.Tridiagonal ( src/Diagrams/Solve/Tridiagonal.hs, dist/dist-sandbox-69b9cdf0/build/Diagrams/Solve/Tridiagonal.o )
+Installing library in /home/rbren/git/haskell-physics/.cabal-sandbox/lib/x86_64-linux-ghc-8.6.5/diagrams-solve-0.1.2-CXXyv62Z7oxQyKkmvAQwc
+cabal: Leaving directory '/tmp/cabal-tmp-296096/diagrams-solve-0.1.2'

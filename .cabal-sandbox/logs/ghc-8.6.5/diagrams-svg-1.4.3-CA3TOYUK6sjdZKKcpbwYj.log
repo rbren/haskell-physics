@@ -1,0 +1,9 @@
+cabal: Entering directory '/tmp/cabal-tmp-296095/diagrams-svg-1.4.3'
+Configuring diagrams-svg-1.4.3...
+Preprocessing library for diagrams-svg-1.4.3..
+Building library for diagrams-svg-1.4.3..
+[1 of 3] Compiling Graphics.Rendering.SVG ( src/Graphics/Rendering/SVG.hs, dist/dist-sandbox-69b9cdf0/build/Graphics/Rendering/SVG.o )
+[2 of 3] Compiling Diagrams.Backend.SVG ( src/Diagrams/Backend/SVG.hs, dist/dist-sandbox-69b9cdf0/build/Diagrams/Backend/SVG.o )
+[3 of 3] Compiling Diagrams.Backend.SVG.CmdLine ( src/Diagrams/Backend/SVG/CmdLine.hs, dist/dist-sandbox-69b9cdf0/build/Diagrams/Backend/SVG/CmdLine.o )
+Installing library in /home/rbren/git/haskell-physics/.cabal-sandbox/lib/x86_64-linux-ghc-8.6.5/diagrams-svg-1.4.3-CA3TOYUK6sjdZKKcpbwYj
+cabal: Leaving directory '/tmp/cabal-tmp-296095/diagrams-svg-1.4.3'

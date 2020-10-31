@@ -1,0 +1,231 @@
+cabal: Entering directory '/tmp/cabal-tmp-296096/shelly-1.9.0'
+Configuring shelly-1.9.0...
+Preprocessing library for shelly-1.9.0..
+Building library for shelly-1.9.0..
+[1 of 7] Compiling Shelly.Base      ( src/Shelly/Base.hs, dist/dist-sandbox-69b9cdf0/build/Shelly/Base.o )
+
+src/Shelly/Base.hs:41:1: warning: [-Wunused-imports]
+    The import of ‘ProcessHandle’
+    from module ‘System.Process’ is redundant
+   |
+41 | import System.Process( ProcessHandle, StdStream(..) )
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+src/Shelly/Base.hs:44:1: warning: [-Wunused-imports]
+    The import of ‘liftM’ from module ‘Control.Monad’ is redundant
+   |
+44 | import Control.Monad (when, (>=>),
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^...
+[2 of 7] Compiling Shelly.Directory ( src/Shelly/Directory.hs, dist/dist-sandbox-69b9cdf0/build/Shelly/Directory.o )
+
+src/Shelly/Directory.hs:5:1: warning: [-Wunused-imports]
+    The qualified import of ‘System.Directory’ is redundant
+      except perhaps to import instances from ‘System.Directory’
+    To import instances alone, use: import System.Directory()
+  |
+5 | import qualified System.Directory as FP
+  | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[3 of 7] Compiling Shelly.Find      ( src/Shelly/Find.hs, dist/dist-sandbox-69b9cdf0/build/Shelly/Find.o )
+
+src/Shelly/Find.hs:69:3: warning: [-Wunused-matches]
+    Defined but not used: ‘files’
+   |
+69 |   files <- ls absDir
+   |   ^^^^^
+
+src/Shelly/Find.hs:78:3: warning: [-Wname-shadowing]
+    This binding for ‘traverse’ shadows the existing binding
+      imported from ‘Prelude’ at src/Shelly/Find.hs:16:1-60
+      (and originally defined in ‘Data.Traversable’)
+   |
+78 |   traverse acc (relativePath, absolutePath) = do
+   |   ^^^^^^^^
+[4 of 7] Compiling Shelly           ( src/Shelly.hs, dist/dist-sandbox-69b9cdf0/build/Shelly.o )
+
+src/Shelly.hs:107:1: warning: [-Wunused-imports]
+    The import of ‘toLower’ from module ‘Data.Char’ is redundant
+    |
+107 | import Data.Char ( isAlphaNum, isSpace, toLower )
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+src/Shelly.hs:132:1: warning: [-Wunused-imports]
+    The import of ‘Monoid’ from module ‘Data.Monoid’ is redundant
+    |
+132 | import Data.Monoid (Monoid, mempty, mappend)
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+src/Shelly.hs:386:5: warning: [-Wincomplete-patterns]
+    Pattern match(es) are non-exhaustive
+    In an equation for ‘toHandle’:
+        Patterns not matched: (Just NoStream)
+    |
+386 |     toHandle (Just (UseHandle h)) = Just h
+    |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^...
+
+src/Shelly.hs:806:1: warning: [-Wunused-top-binds]
+    Defined but not used: ‘normalizeEnvVarNameString’
+    |
+806 | normalizeEnvVarNameString = id
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^
+[5 of 7] Compiling Shelly.Lifted    ( src/Shelly/Lifted.hs, dist/dist-sandbox-69b9cdf0/build/Shelly/Lifted.o )
+
+src/Shelly/Lifted.hs:105:1: warning: [-Wunused-imports]
+    The import of ‘Data.Monoid’ is redundant
+      except perhaps to import instances from ‘Data.Monoid’
+    To import instances alone, use: import Data.Monoid()
+    |
+105 | import Data.Monoid
+    | ^^^^^^^^^^^^^^^^^^
+
+src/Shelly/Lifted.hs:108:1: warning: [-Wunused-imports]
+    The qualified import of ‘System.FilePath’ is redundant
+      except perhaps to import instances from ‘System.FilePath’
+    To import instances alone, use: import System.FilePath()
+    |
+108 | import qualified System.FilePath as FP
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+src/Shelly/Lifted.hs:115:1: warning: [-Wdeprecations]
+    Module ‘Control.Monad.Trans.List’ is deprecated:
+      This transformer is invalid on most monads
+    |
+115 | import Control.Monad.Trans.List
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+src/Shelly/Lifted.hs:118:1: warning: [-Wdeprecations]
+    Module ‘Control.Monad.Trans.Error’ is deprecated:
+      Use Control.Monad.Trans.Except instead
+    |
+118 | import Control.Monad.Trans.Error
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+src/Shelly/Lifted.hs:135:32: warning: [-Wdeprecations]
+    In the use of type constructor or class ‘ListT’
+    (imported from Control.Monad.Trans.List):
+    Deprecated: "This transformer is invalid on most monads"
+    |
+135 | instance MonadSh m => MonadSh (ListT m) where
+    |                                ^^^^^
+
+src/Shelly/Lifted.hs:136:16: warning: [-Wdeprecations]
+    In the use of data constructor ‘ListT’
+    (imported from Control.Monad.Trans.List):
+    Deprecated: "This transformer is invalid on most monads"
+    |
+136 |     liftSh m = ListT $ do
+    |                ^^^^^
+
+src/Shelly/Lifted.hs:143:11: warning: [-Wdeprecations]
+    In the use of type constructor or class ‘Error’
+    (imported from Control.Monad.Trans.Error):
+    Deprecated: "Use Control.Monad.Trans.Except instead"
+    |
+143 | instance (Error e, MonadSh m) => MonadSh (ErrorT e m) where
+    |           ^^^^^
+
+src/Shelly/Lifted.hs:143:43: warning: [-Wdeprecations]
+    In the use of type constructor or class ‘ErrorT’
+    (imported from Control.Monad.Trans.Error):
+    Deprecated: "Use Control.Monad.Trans.Except instead"
+    |
+143 | instance (Error e, MonadSh m) => MonadSh (ErrorT e m) where
+    |                                           ^^^^^^
+
+src/Shelly/Lifted.hs:144:16: warning: [-Wdeprecations]
+    In the use of data constructor ‘ErrorT’
+    (imported from Control.Monad.Trans.Error):
+    Deprecated: "Use Control.Monad.Trans.Except instead"
+    |
+144 |     liftSh m = ErrorT $ do
+    |                ^^^^^^
+
+src/Shelly/Lifted.hs:195:46: warning: [-Wdeprecations]
+    In the use of type constructor or class ‘ListT’
+    (imported from Control.Monad.Trans.List):
+    Deprecated: "This transformer is invalid on most monads"
+    |
+195 | instance MonadShControl m => MonadShControl (ListT m) where
+    |                                              ^^^^^
+
+src/Shelly/Lifted.hs:196:18: warning: [-Wdeprecations]
+    In the use of type constructor or class ‘ListT’
+    (imported from Control.Monad.Trans.List):
+    Deprecated: "This transformer is invalid on most monads"
+    |
+196 |     newtype ShM (ListT m) a = ListTShM (ShM m [a])
+    |                  ^^^^^
+
+src/Shelly/Lifted.hs:198:9: warning: [-Wdeprecations]
+    In the use of data constructor ‘ListT’
+    (imported from Control.Monad.Trans.List):
+    Deprecated: "This transformer is invalid on most monads"
+    |
+198 |         ListT $ liftM return $ liftShWith $ \runInSh -> f $ \k ->
+    |         ^^^^^
+
+src/Shelly/Lifted.hs:199:40: warning: [-Wdeprecations]
+    In the use of ‘runListT’ (imported from Control.Monad.Trans.List):
+    Deprecated: "This transformer is invalid on most monads"
+    |
+199 |             liftM ListTShM $ runInSh $ runListT k
+    |                                        ^^^^^^^^
+
+src/Shelly/Lifted.hs:200:30: warning: [-Wdeprecations]
+    In the use of data constructor ‘ListT’
+    (imported from Control.Monad.Trans.List):
+    Deprecated: "This transformer is invalid on most monads"
+    |
+200 |     restoreSh (ListTShM m) = ListT . restoreSh $ m
+    |                              ^^^^^
+
+src/Shelly/Lifted.hs:243:29: warning: [-Wdeprecations]
+    In the use of type constructor or class ‘Error’
+    (imported from Control.Monad.Trans.Error):
+    Deprecated: "Use Control.Monad.Trans.Except instead"
+    |
+243 | instance (MonadShControl m, Error e)
+    |                             ^^^^^
+
+src/Shelly/Lifted.hs:244:29: warning: [-Wdeprecations]
+    In the use of type constructor or class ‘ErrorT’
+    (imported from Control.Monad.Trans.Error):
+    Deprecated: "Use Control.Monad.Trans.Except instead"
+    |
+244 |          => MonadShControl (ErrorT e m) where
+    |                             ^^^^^^
+
+src/Shelly/Lifted.hs:245:18: warning: [-Wdeprecations]
+    In the use of type constructor or class ‘ErrorT’
+    (imported from Control.Monad.Trans.Error):
+    Deprecated: "Use Control.Monad.Trans.Except instead"
+    |
+245 |     newtype ShM (ErrorT e m) a = ErrorTShM (ShM m (Either e a))
+    |                  ^^^^^^
+
+src/Shelly/Lifted.hs:247:9: warning: [-Wdeprecations]
+    In the use of data constructor ‘ErrorT’
+    (imported from Control.Monad.Trans.Error):
+    Deprecated: "Use Control.Monad.Trans.Except instead"
+    |
+247 |         ErrorT $ liftM return $ liftShWith $ \runInSh -> f $ \k ->
+    |         ^^^^^^
+
+src/Shelly/Lifted.hs:248:41: warning: [-Wdeprecations]
+    In the use of ‘runErrorT’
+    (imported from Control.Monad.Trans.Error):
+    Deprecated: "Use Control.Monad.Trans.Except instead"
+    |
+248 |             liftM ErrorTShM $ runInSh $ runErrorT k
+    |                                         ^^^^^^^^^
+
+src/Shelly/Lifted.hs:249:31: warning: [-Wdeprecations]
+    In the use of data constructor ‘ErrorT’
+    (imported from Control.Monad.Trans.Error):
+    Deprecated: "Use Control.Monad.Trans.Except instead"
+    |
+249 |     restoreSh (ErrorTShM m) = ErrorT . restoreSh $ m
+    |                               ^^^^^^
+[6 of 7] Compiling Shelly.Pipe      ( src/Shelly/Pipe.hs, dist/dist-sandbox-69b9cdf0/build/Shelly/Pipe.o )
+[7 of 7] Compiling Shelly.Unix      ( src/Shelly/Unix.hs, dist/dist-sandbox-69b9cdf0/build/Shelly/Unix.o )
+Installing library in /home/rbren/git/haskell-physics/.cabal-sandbox/lib/x86_64-linux-ghc-8.6.5/shelly-1.9.0-DPM7Rwoqh0t1plihgxCQYF
+cabal: Leaving directory '/tmp/cabal-tmp-296096/shelly-1.9.0'

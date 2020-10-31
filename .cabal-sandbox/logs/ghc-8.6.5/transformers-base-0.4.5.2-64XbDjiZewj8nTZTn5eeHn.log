@@ -1,0 +1,7 @@
+cabal: Entering directory '/tmp/cabal-tmp-296097/transformers-base-0.4.5.2'
+Configuring transformers-base-0.4.5.2...
+Preprocessing library for transformers-base-0.4.5.2..
+Building library for transformers-base-0.4.5.2..
+[1 of 1] Compiling Control.Monad.Base ( src/Control/Monad/Base.hs, dist/dist-sandbox-69b9cdf0/build/Control/Monad/Base.o )
+Installing library in /home/rbren/git/haskell-physics/.cabal-sandbox/lib/x86_64-linux-ghc-8.6.5/transformers-base-0.4.5.2-64XbDjiZewj8nTZTn5eeHn
+cabal: Leaving directory '/tmp/cabal-tmp-296097/transformers-base-0.4.5.2'

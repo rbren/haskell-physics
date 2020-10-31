@@ -1,0 +1,20 @@
+cabal: Entering directory '/tmp/cabal-tmp-296098/fsnotify-0.3.0.1'
+Configuring fsnotify-0.3.0.1...
+Preprocessing library for fsnotify-0.3.0.1..
+Building library for fsnotify-0.3.0.1..
+[1 of 7] Compiling System.FSNotify.Path ( src/System/FSNotify/Path.hs, dist/dist-sandbox-69b9cdf0/build/System/FSNotify/Path.o )
+[2 of 7] Compiling System.FSNotify.Types ( src/System/FSNotify/Types.hs, dist/dist-sandbox-69b9cdf0/build/System/FSNotify/Types.o )
+[3 of 7] Compiling System.FSNotify.Listener ( src/System/FSNotify/Listener.hs, dist/dist-sandbox-69b9cdf0/build/System/FSNotify/Listener.o )
+[4 of 7] Compiling System.FSNotify.Polling ( src/System/FSNotify/Polling.hs, dist/dist-sandbox-69b9cdf0/build/System/FSNotify/Polling.o )
+
+src/System/FSNotify/Polling.hs:64:17: warning: [-Wname-shadowing]
+    This binding for ‘path’ shadows the existing binding
+      bound at src/System/FSNotify/Polling.hs:58:22
+   |
+64 |     pathAndInfo path = handle (\(_ :: IOException) -> return Nothing) $ do
+   |                 ^^^^
+[5 of 7] Compiling System.FSNotify.Linux ( src/System/FSNotify/Linux.hs, dist/dist-sandbox-69b9cdf0/build/System/FSNotify/Linux.o )
+[6 of 7] Compiling System.FSNotify  ( src/System/FSNotify.hs, dist/dist-sandbox-69b9cdf0/build/System/FSNotify.o )
+[7 of 7] Compiling System.FSNotify.Devel ( src/System/FSNotify/Devel.hs, dist/dist-sandbox-69b9cdf0/build/System/FSNotify/Devel.o )
+Installing library in /home/rbren/git/haskell-physics/.cabal-sandbox/lib/x86_64-linux-ghc-8.6.5/fsnotify-0.3.0.1-DsUQ61HBf5EBZSPpMC4iJb
+cabal: Leaving directory '/tmp/cabal-tmp-296098/fsnotify-0.3.0.1'

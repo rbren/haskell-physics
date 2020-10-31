@@ -1,0 +1,8 @@
+cabal: Entering directory '/tmp/cabal-tmp-296097/microlens-th-0.4.3.6'
+Configuring microlens-th-0.4.3.6...
+Preprocessing library for microlens-th-0.4.3.6..
+Building library for microlens-th-0.4.3.6..
+[1 of 2] Compiling Lens.Micro.TH.Internal ( src/Lens/Micro/TH/Internal.hs, dist/dist-sandbox-69b9cdf0/build/Lens/Micro/TH/Internal.o )
+[2 of 2] Compiling Lens.Micro.TH    ( src/Lens/Micro/TH.hs, dist/dist-sandbox-69b9cdf0/build/Lens/Micro/TH.o )
+Installing library in /home/rbren/git/haskell-physics/.cabal-sandbox/lib/x86_64-linux-ghc-8.6.5/microlens-th-0.4.3.6-DrmmyZkX8rvCcMsLWP7jXM
+cabal: Leaving directory '/tmp/cabal-tmp-296097/microlens-th-0.4.3.6'

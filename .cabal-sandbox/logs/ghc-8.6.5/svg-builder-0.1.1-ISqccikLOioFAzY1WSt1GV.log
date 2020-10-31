@@ -1,0 +1,11 @@
+cabal: Entering directory '/tmp/cabal-tmp-296098/svg-builder-0.1.1'
+Configuring svg-builder-0.1.1...
+Preprocessing library for svg-builder-0.1.1..
+Building library for svg-builder-0.1.1..
+[1 of 5] Compiling Graphics.Svg.Core ( src/Graphics/Svg/Core.hs, dist/dist-sandbox-69b9cdf0/build/Graphics/Svg/Core.o )
+[2 of 5] Compiling Graphics.Svg.Attributes ( src/Graphics/Svg/Attributes.hs, dist/dist-sandbox-69b9cdf0/build/Graphics/Svg/Attributes.o )
+[3 of 5] Compiling Graphics.Svg.Elements ( src/Graphics/Svg/Elements.hs, dist/dist-sandbox-69b9cdf0/build/Graphics/Svg/Elements.o )
+[4 of 5] Compiling Graphics.Svg.Path ( src/Graphics/Svg/Path.hs, dist/dist-sandbox-69b9cdf0/build/Graphics/Svg/Path.o )
+[5 of 5] Compiling Graphics.Svg     ( src/Graphics/Svg.hs, dist/dist-sandbox-69b9cdf0/build/Graphics/Svg.o )
+Installing library in /home/rbren/git/haskell-physics/.cabal-sandbox/lib/x86_64-linux-ghc-8.6.5/svg-builder-0.1.1-ISqccikLOioFAzY1WSt1GV
+cabal: Leaving directory '/tmp/cabal-tmp-296098/svg-builder-0.1.1'

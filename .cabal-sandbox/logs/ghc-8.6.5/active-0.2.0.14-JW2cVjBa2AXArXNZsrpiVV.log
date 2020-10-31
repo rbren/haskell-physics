@@ -1,0 +1,7 @@
+cabal: Entering directory '/tmp/cabal-tmp-296097/active-0.2.0.14'
+Configuring active-0.2.0.14...
+Preprocessing library for active-0.2.0.14..
+Building library for active-0.2.0.14..
+[1 of 1] Compiling Data.Active      ( src/Data/Active.hs, dist/dist-sandbox-69b9cdf0/build/Data/Active.o )
+Installing library in /home/rbren/git/haskell-physics/.cabal-sandbox/lib/x86_64-linux-ghc-8.6.5/active-0.2.0.14-JW2cVjBa2AXArXNZsrpiVV
+cabal: Leaving directory '/tmp/cabal-tmp-296097/active-0.2.0.14'

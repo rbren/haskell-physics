@@ -1,0 +1,7 @@
+cabal: Entering directory '/tmp/cabal-tmp-296097/groups-0.4.1.0'
+Configuring groups-0.4.1.0...
+Preprocessing library for groups-0.4.1.0..
+Building library for groups-0.4.1.0..
+[1 of 1] Compiling Data.Group       ( src/Data/Group.hs, dist/dist-sandbox-69b9cdf0/build/Data/Group.o )
+Installing library in /home/rbren/git/haskell-physics/.cabal-sandbox/lib/x86_64-linux-ghc-8.6.5/groups-0.4.1.0-GQ0R1oGHqHnFg8S4yqvy6E
+cabal: Leaving directory '/tmp/cabal-tmp-296097/groups-0.4.1.0'

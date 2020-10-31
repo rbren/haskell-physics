@@ -1,0 +1,7 @@
+cabal: Entering directory '/tmp/cabal-tmp-296096/MemoTrie-0.6.10'
+Configuring MemoTrie-0.6.10...
+Preprocessing library for MemoTrie-0.6.10..
+Building library for MemoTrie-0.6.10..
+[1 of 1] Compiling Data.MemoTrie    ( src/Data/MemoTrie.hs, dist/dist-sandbox-69b9cdf0/build/Data/MemoTrie.o )
+Installing library in /home/rbren/git/haskell-physics/.cabal-sandbox/lib/x86_64-linux-ghc-8.6.5/MemoTrie-0.6.10-1D0vZyMgV1FBm703yRQa78
+cabal: Leaving directory '/tmp/cabal-tmp-296096/MemoTrie-0.6.10'

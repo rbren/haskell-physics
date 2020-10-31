@@ -1,0 +1,8 @@
+cabal: Entering directory '/tmp/cabal-tmp-296098/dual-tree-0.2.2.1'
+Configuring dual-tree-0.2.2.1...
+Preprocessing library for dual-tree-0.2.2.1..
+Building library for dual-tree-0.2.2.1..
+[1 of 2] Compiling Data.Tree.DUAL.Internal ( src/Data/Tree/DUAL/Internal.hs, dist/dist-sandbox-69b9cdf0/build/Data/Tree/DUAL/Internal.o )
+[2 of 2] Compiling Data.Tree.DUAL   ( src/Data/Tree/DUAL.hs, dist/dist-sandbox-69b9cdf0/build/Data/Tree/DUAL.o )
+Installing library in /home/rbren/git/haskell-physics/.cabal-sandbox/lib/x86_64-linux-ghc-8.6.5/dual-tree-0.2.2.1-3ZUQ3PU1gceBYcnEyn2GvL
+cabal: Leaving directory '/tmp/cabal-tmp-296098/dual-tree-0.2.2.1'

@@ -1,0 +1,7 @@
+cabal: Entering directory '/tmp/cabal-tmp-296097/integration-0.2.1'
+Configuring integration-0.2.1...
+Preprocessing library for integration-0.2.1..
+Building library for integration-0.2.1..
+[1 of 1] Compiling Numeric.Integration.TanhSinh ( src/Numeric/Integration/TanhSinh.hs, dist/dist-sandbox-69b9cdf0/build/Numeric/Integration/TanhSinh.o )
+Installing library in /home/rbren/git/haskell-physics/.cabal-sandbox/lib/x86_64-linux-ghc-8.6.5/integration-0.2.1-DaoYxKcUoWDI5qWiigqlBU
+cabal: Leaving directory '/tmp/cabal-tmp-296097/integration-0.2.1'

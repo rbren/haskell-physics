@@ -1,0 +1,36 @@
+cabal: Entering directory '/tmp/cabal-tmp-296095/JuicyPixels-3.3.5'
+Configuring JuicyPixels-3.3.5...
+Preprocessing library for JuicyPixels-3.3.5..
+Building library for JuicyPixels-3.3.5..
+[ 1 of 30] Compiling Codec.Picture.InternalHelper ( src/Codec/Picture/InternalHelper.hs, dist/dist-sandbox-69b9cdf0/build/Codec/Picture/InternalHelper.o )
+[ 2 of 30] Compiling Codec.Picture.Metadata.Exif ( src/Codec/Picture/Metadata/Exif.hs, dist/dist-sandbox-69b9cdf0/build/Codec/Picture/Metadata/Exif.o )
+[ 3 of 30] Compiling Codec.Picture.Metadata ( src/Codec/Picture/Metadata.hs, dist/dist-sandbox-69b9cdf0/build/Codec/Picture/Metadata.o )
+[ 4 of 30] Compiling Codec.Picture.Tiff.Internal.Types ( src/Codec/Picture/Tiff/Internal/Types.hs, dist/dist-sandbox-69b9cdf0/build/Codec/Picture/Tiff/Internal/Types.o )
+[ 5 of 30] Compiling Codec.Picture.Tiff.Internal.Metadata ( src/Codec/Picture/Tiff/Internal/Metadata.hs, dist/dist-sandbox-69b9cdf0/build/Codec/Picture/Tiff/Internal/Metadata.o )
+[ 6 of 30] Compiling Codec.Picture.Types ( src/Codec/Picture/Types.hs, dist/dist-sandbox-69b9cdf0/build/Codec/Picture/Types.o )
+[ 7 of 30] Compiling Codec.Picture.Png.Internal.Type ( src/Codec/Picture/Png/Internal/Type.hs, dist/dist-sandbox-69b9cdf0/build/Codec/Picture/Png/Internal/Type.o )
+[ 8 of 30] Compiling Codec.Picture.Png.Internal.Metadata ( src/Codec/Picture/Png/Internal/Metadata.hs, dist/dist-sandbox-69b9cdf0/build/Codec/Picture/Png/Internal/Metadata.o )
+[ 9 of 30] Compiling Codec.Picture.VectorByteConversion ( src/Codec/Picture/VectorByteConversion.hs, dist/dist-sandbox-69b9cdf0/build/Codec/Picture/VectorByteConversion.o )
+[10 of 30] Compiling Codec.Picture.Tga ( src/Codec/Picture/Tga.hs, dist/dist-sandbox-69b9cdf0/build/Codec/Picture/Tga.o )
+[11 of 30] Compiling Codec.Picture.Png.Internal.Export ( src/Codec/Picture/Png/Internal/Export.hs, dist/dist-sandbox-69b9cdf0/build/Codec/Picture/Png/Internal/Export.o )
+[12 of 30] Compiling Codec.Picture.Png ( src/Codec/Picture/Png.hs, dist/dist-sandbox-69b9cdf0/build/Codec/Picture/Png.o )
+[13 of 30] Compiling Codec.Picture.HDR ( src/Codec/Picture/HDR.hs, dist/dist-sandbox-69b9cdf0/build/Codec/Picture/HDR.o )
+[14 of 30] Compiling Codec.Picture.Bitmap ( src/Codec/Picture/Bitmap.hs, dist/dist-sandbox-69b9cdf0/build/Codec/Picture/Bitmap.o )
+[15 of 30] Compiling Codec.Picture.BitWriter ( src/Codec/Picture/BitWriter.hs, dist/dist-sandbox-69b9cdf0/build/Codec/Picture/BitWriter.o )
+[16 of 30] Compiling Codec.Picture.Jpg.Internal.DefaultTable ( src/Codec/Picture/Jpg/Internal/DefaultTable.hs, dist/dist-sandbox-69b9cdf0/build/Codec/Picture/Jpg/Internal/DefaultTable.o )
+[17 of 30] Compiling Codec.Picture.Jpg.Internal.Types ( src/Codec/Picture/Jpg/Internal/Types.hs, dist/dist-sandbox-69b9cdf0/build/Codec/Picture/Jpg/Internal/Types.o )
+[18 of 30] Compiling Codec.Picture.Jpg.Internal.Metadata ( src/Codec/Picture/Jpg/Internal/Metadata.hs, dist/dist-sandbox-69b9cdf0/build/Codec/Picture/Jpg/Internal/Metadata.o )
+[19 of 30] Compiling Codec.Picture.Jpg.Internal.FastIdct ( src/Codec/Picture/Jpg/Internal/FastIdct.hs, dist/dist-sandbox-69b9cdf0/build/Codec/Picture/Jpg/Internal/FastIdct.o )
+[20 of 30] Compiling Codec.Picture.Jpg.Internal.FastDct ( src/Codec/Picture/Jpg/Internal/FastDct.hs, dist/dist-sandbox-69b9cdf0/build/Codec/Picture/Jpg/Internal/FastDct.o )
+[21 of 30] Compiling Codec.Picture.Jpg.Internal.Common ( src/Codec/Picture/Jpg/Internal/Common.hs, dist/dist-sandbox-69b9cdf0/build/Codec/Picture/Jpg/Internal/Common.o )
+[22 of 30] Compiling Codec.Picture.Jpg.Internal.Progressive ( src/Codec/Picture/Jpg/Internal/Progressive.hs, dist/dist-sandbox-69b9cdf0/build/Codec/Picture/Jpg/Internal/Progressive.o )
+[23 of 30] Compiling Codec.Picture.Jpg ( src/Codec/Picture/Jpg.hs, dist/dist-sandbox-69b9cdf0/build/Codec/Picture/Jpg.o )
+[24 of 30] Compiling Codec.Picture.Gif.Internal.LZWEncoding ( src/Codec/Picture/Gif/Internal/LZWEncoding.hs, dist/dist-sandbox-69b9cdf0/build/Codec/Picture/Gif/Internal/LZWEncoding.o )
+[25 of 30] Compiling Codec.Picture.Gif.Internal.LZW ( src/Codec/Picture/Gif/Internal/LZW.hs, dist/dist-sandbox-69b9cdf0/build/Codec/Picture/Gif/Internal/LZW.o )
+[26 of 30] Compiling Codec.Picture.Tiff ( src/Codec/Picture/Tiff.hs, dist/dist-sandbox-69b9cdf0/build/Codec/Picture/Tiff.o )
+[27 of 30] Compiling Codec.Picture.Gif ( src/Codec/Picture/Gif.hs, dist/dist-sandbox-69b9cdf0/build/Codec/Picture/Gif.o )
+[28 of 30] Compiling Codec.Picture.ColorQuant ( src/Codec/Picture/ColorQuant.hs, dist/dist-sandbox-69b9cdf0/build/Codec/Picture/ColorQuant.o )
+[29 of 30] Compiling Codec.Picture.Saving ( src/Codec/Picture/Saving.hs, dist/dist-sandbox-69b9cdf0/build/Codec/Picture/Saving.o )
+[30 of 30] Compiling Codec.Picture    ( src/Codec/Picture.hs, dist/dist-sandbox-69b9cdf0/build/Codec/Picture.o )
+Installing library in /home/rbren/git/haskell-physics/.cabal-sandbox/lib/x86_64-linux-ghc-8.6.5/JuicyPixels-3.3.5-GMVNJnbXSISGOf76vGLH5t
+cabal: Leaving directory '/tmp/cabal-tmp-296095/JuicyPixels-3.3.5'

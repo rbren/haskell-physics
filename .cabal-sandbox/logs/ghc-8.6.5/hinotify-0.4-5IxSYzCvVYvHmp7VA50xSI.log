@@ -1,0 +1,8 @@
+cabal: Entering directory '/tmp/cabal-tmp-296098/hinotify-0.4'
+Configuring hinotify-0.4...
+Preprocessing library for hinotify-0.4..
+Building library for hinotify-0.4..
+[1 of 2] Compiling System.INotify.Masks ( dist/dist-sandbox-69b9cdf0/build/System/INotify/Masks.hs, dist/dist-sandbox-69b9cdf0/build/System/INotify/Masks.o )
+[2 of 2] Compiling System.INotify   ( dist/dist-sandbox-69b9cdf0/build/System/INotify.hs, dist/dist-sandbox-69b9cdf0/build/System/INotify.o )
+Installing library in /home/rbren/git/haskell-physics/.cabal-sandbox/lib/x86_64-linux-ghc-8.6.5/hinotify-0.4-5IxSYzCvVYvHmp7VA50xSI
+cabal: Leaving directory '/tmp/cabal-tmp-296098/hinotify-0.4'

@@ -1,0 +1,10 @@
+cabal: Entering directory '/tmp/cabal-tmp-296096/distributive-0.6.2'
+[1 of 1] Compiling Main             ( /tmp/cabal-tmp-296096/distributive-0.6.2/dist/dist-sandbox-69b9cdf0/setup/setup.hs, /tmp/cabal-tmp-296096/distributive-0.6.2/dist/dist-sandbox-69b9cdf0/setup/Main.o )
+Linking /tmp/cabal-tmp-296096/distributive-0.6.2/dist/dist-sandbox-69b9cdf0/setup/setup ...
+Configuring distributive-0.6.2...
+Preprocessing library for distributive-0.6.2..
+Building library for distributive-0.6.2..
+[1 of 2] Compiling Data.Distributive ( src/Data/Distributive.hs, dist/dist-sandbox-69b9cdf0/build/Data/Distributive.o )
+[2 of 2] Compiling Data.Distributive.Generic ( src/Data/Distributive/Generic.hs, dist/dist-sandbox-69b9cdf0/build/Data/Distributive/Generic.o )
+Installing library in /home/rbren/git/haskell-physics/.cabal-sandbox/lib/x86_64-linux-ghc-8.6.5/distributive-0.6.2-3FadLb72KGv2l1XA4qYVmI
+cabal: Leaving directory '/tmp/cabal-tmp-296096/distributive-0.6.2'

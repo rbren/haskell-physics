@@ -1,0 +1,14 @@
+cabal: Entering directory '/tmp/cabal-tmp-296096/intervals-0.9.1'
+[1 of 1] Compiling Main             ( /tmp/cabal-tmp-296096/intervals-0.9.1/dist/dist-sandbox-69b9cdf0/setup/setup.hs, /tmp/cabal-tmp-296096/intervals-0.9.1/dist/dist-sandbox-69b9cdf0/setup/Main.o )
+Linking /tmp/cabal-tmp-296096/intervals-0.9.1/dist/dist-sandbox-69b9cdf0/setup/setup ...
+Configuring intervals-0.9.1...
+Preprocessing library for intervals-0.9.1..
+Building library for intervals-0.9.1..
+[1 of 6] Compiling Numeric.Interval.Exception ( src/Numeric/Interval/Exception.hs, dist/dist-sandbox-69b9cdf0/build/Numeric/Interval/Exception.o )
+[2 of 6] Compiling Numeric.Interval.Internal ( src/Numeric/Interval/Internal.hs, dist/dist-sandbox-69b9cdf0/build/Numeric/Interval/Internal.o )
+[3 of 6] Compiling Numeric.Interval ( src/Numeric/Interval.hs, dist/dist-sandbox-69b9cdf0/build/Numeric/Interval.o )
+[4 of 6] Compiling Numeric.Interval.Kaucher ( src/Numeric/Interval/Kaucher.hs, dist/dist-sandbox-69b9cdf0/build/Numeric/Interval/Kaucher.o )
+[5 of 6] Compiling Numeric.Interval.NonEmpty.Internal ( src/Numeric/Interval/NonEmpty/Internal.hs, dist/dist-sandbox-69b9cdf0/build/Numeric/Interval/NonEmpty/Internal.o )
+[6 of 6] Compiling Numeric.Interval.NonEmpty ( src/Numeric/Interval/NonEmpty.hs, dist/dist-sandbox-69b9cdf0/build/Numeric/Interval/NonEmpty.o )
+Installing library in /home/rbren/git/haskell-physics/.cabal-sandbox/lib/x86_64-linux-ghc-8.6.5/intervals-0.9.1-12AByVVO1nf1AttKcfqxec
+cabal: Leaving directory '/tmp/cabal-tmp-296096/intervals-0.9.1'

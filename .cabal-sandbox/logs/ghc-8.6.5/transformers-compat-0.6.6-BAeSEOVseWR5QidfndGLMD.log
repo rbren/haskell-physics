@@ -1,0 +1,10 @@
+cabal: Entering directory '/tmp/cabal-tmp-296098/transformers-compat-0.6.6'
+Configuring transformers-compat-0.6.6...
+Preprocessing library for transformers-compat-0.6.6..
+Building library for transformers-compat-0.6.6..
+[1 of 4] Compiling Control.Monad.Trans.Instances ( src/Control/Monad/Trans/Instances.hs, dist/dist-sandbox-69b9cdf0/build/Control/Monad/Trans/Instances.o )
+[2 of 4] Compiling Data.Functor.Classes.Generic.Internal ( generics/Data/Functor/Classes/Generic/Internal.hs, dist/dist-sandbox-69b9cdf0/build/Data/Functor/Classes/Generic/Internal.o )
+[3 of 4] Compiling Data.Functor.Classes.Generic ( generics/Data/Functor/Classes/Generic.hs, dist/dist-sandbox-69b9cdf0/build/Data/Functor/Classes/Generic.o )
+[4 of 4] Compiling Paths_transformers_compat ( dist/dist-sandbox-69b9cdf0/build/autogen/Paths_transformers_compat.hs, dist/dist-sandbox-69b9cdf0/build/Paths_transformers_compat.o )
+Installing library in /home/rbren/git/haskell-physics/.cabal-sandbox/lib/x86_64-linux-ghc-8.6.5/transformers-compat-0.6.6-BAeSEOVseWR5QidfndGLMD
+cabal: Leaving directory '/tmp/cabal-tmp-296098/transformers-compat-0.6.6'

@@ -1,0 +1,9 @@
+cabal: Entering directory '/tmp/cabal-tmp-296096/Boolean-0.2.4'
+Configuring Boolean-0.2.4...
+Preprocessing library for Boolean-0.2.4..
+Building library for Boolean-0.2.4..
+[1 of 3] Compiling Data.Boolean     ( src/Data/Boolean.hs, dist/dist-sandbox-69b9cdf0/build/Data/Boolean.o )
+[2 of 3] Compiling Data.Boolean.Numbers ( src/Data/Boolean/Numbers.hs, dist/dist-sandbox-69b9cdf0/build/Data/Boolean/Numbers.o )
+[3 of 3] Compiling Data.Boolean.Overload ( src/Data/Boolean/Overload.hs, dist/dist-sandbox-69b9cdf0/build/Data/Boolean/Overload.o )
+Installing library in /home/rbren/git/haskell-physics/.cabal-sandbox/lib/x86_64-linux-ghc-8.6.5/Boolean-0.2.4-E63HERI2m4QLr7c9NoUMrA
+cabal: Leaving directory '/tmp/cabal-tmp-296096/Boolean-0.2.4'
